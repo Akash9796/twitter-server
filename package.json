@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node build/index.js",
+    "start": "node build/api/index.js",
     "build": "tsc -p .",
     "watch": "tsc -w",
     "dev": "tsc-watch --onSuccess \"npm start\""
